@@ -1,0 +1,28 @@
+{
+  "name": "ton-v4r2-forensic",
+  "version": "1.0.0",
+  "description": "TON Wallet V4 R2 forensic verification - Phase 1: Registry probe",
+  "type": "module",
+  "main": "registry-probe.mjs",
+  "scripts": {
+    "probe": "node registry-probe.mjs",
+    "probe:testnet": "node registry-probe.mjs --testnet"
+  },
+  "keywords": [
+    "ton",
+    "forensic",
+    "verification",
+    "registry",
+    "v4r2"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-crypto/sha256-js": "^2.0.2",
+    "@ton/core": "^0.63.1",
+    "@ton/ton": "^16.3.0"
+  },
+  "engines": {
+    "node": ">=14.16"
+  }
+}
